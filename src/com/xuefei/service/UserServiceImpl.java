@@ -38,8 +38,4 @@ public class UserServiceImpl implements UserService {
 		return userDaoImpl.findById(id);
 	}
 
-	public void setUserDaoImpl(UserDao userDaoImpl) {
-		this.userDaoImpl = userDaoImpl;
-	}
-
 }

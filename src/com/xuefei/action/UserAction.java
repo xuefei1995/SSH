@@ -13,10 +13,6 @@ import com.xuefei.utils.BaseAction;
 @Scope("prototype")
 public class UserAction extends BaseAction {
 
-	public void setUserServiceImpl(UserService userServiceImpl) {
-		this.userServiceImpl = userServiceImpl;
-	}
-
 	private static final long serialVersionUID = 1L;
 	@Resource
 	private UserService userServiceImpl;
